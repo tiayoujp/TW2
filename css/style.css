@@ -1,0 +1,118 @@
+
+/*defult*/
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+body {
+  background: url(../images/bg.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+
+a, a:visited, a:hover {
+   text-decoration: none;
+   outline: 0;
+   color: #3399cc;
+   -webkit-transition: color .3s ease-in-out;
+   -moz-transition: color .3s ease-in-out;
+   -o-transition: color .3s ease-in-out;
+   transition: color .3s ease-in-out;
+}
+
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h2 span {
+  font-family: 'Tangerine', cursive;
+}
+
+main {
+  margin: 50px auto 32px;
+}
+
+main h2 {
+  padding-top: 10px;
+  color: #fff;
+  text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+  margin: 10px auto 20px;
+}
+
+.mainnews {
+    background-color: rgba(51,153,204, .4);
+    color: #fff;
+    letter-spacing: 3px;
+    text-shadow: 0 0 0.2em #3399cc, 0 0 0.2em #3399cc, 0 0 0.2em #3399cc;
+    text-align: center;
+    max-height: 340px; overflow-y: scroll;
+}
+
+.mainnews span {
+  color: #000;
+}
+
+span {
+  font-weight: bold;
+}
+
+td {
+  text-shadow: 0 0 0.2em #fff, 0 0 0.2em #fff, 0 0 0.2em #fff;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 24px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+  /*  outline: none;  Remove outline */
+    background-color: #3399cc; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 100px; /* Rounded corners */
+    font-size: 14px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+footer {
+   font-family: 'Open Sans', sans-serif;
+   background-color: #fff;
+   height: 30px;
+   padding-top: 5px;
+   color: #3399cc;
+   text-align: center;
+   font-size: 14px;
+   bottom: 0;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+
+/*for portfolio.html*/
+
+.tab-content {
+  background-color: rgba(255,255,255, .6);
+  padding-bottom: 24px;
+}
+
+.modal-body {
+  padding: 0;
+  overflow: auto;
+}
+
+.modal-body img {
+  overflow: scroll;
+}
+
+.card-img-bottom {
+  width: 100%;
+}
